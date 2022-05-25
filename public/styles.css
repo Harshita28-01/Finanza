@@ -1,0 +1,213 @@
+.inputData{
+    width: 80%;
+}
+
+.formalign{
+    padding: 1.2% 3%;
+}
+
+.field{
+    font-weight: bold;
+}
+
+.formalign Button{
+    margin-top: 0.5%;
+}
+hr{
+    width: 30%;
+    margin-bottom: 1%;
+}
+.formTitle{
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.table{
+    margin-left: 2.5%;
+    margin-top: 0.5%;
+    width:95%;
+    text-align: center; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 0;
+}
+
+.item{
+    margin-right: 5px;
+}
+
+.date{
+    width: 7.5%;
+}
+
+.signup{
+    width:50%;
+    margin: 1% 37%;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    border-radius: 20%;
+    height: 680px;
+    width: 30%;
+    text-align: center;
+}
+
+.login{
+    width:50%;
+    margin: 3% 37%;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    border-radius: 20%;
+    height: 560px;
+    width: 30%;
+    text-align: center;
+}
+.signup Button{
+    margin-top: 15px;
+    font-weight:600;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.login Button{
+    margin-top: 15px;
+    font-weight:600;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+.SLinputData{
+    width:80%;
+    margin-left: 40px;
+    height: 45px;
+    border-radius: 25px;
+}
+
+body{
+    background:url("background.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.formLabel{
+    padding-top: 15px;
+}
+
+.signUpLink{
+    margin-top: 3%;
+}
+ 
+.signLoginLink{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.normalBackground{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+}
+
+.homeTitle{
+    font-size: 800%;
+    text-align: left;
+    margin-top:70px ;
+    margin-bottom: 0px;
+}
+
+.homePic{
+    float:left;
+    margin:0px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border: 5px solid;
+    border-radius: 100%;
+}
+
+.homeButton{
+    margin-left:14%;
+    margin-top: 3%;
+    margin-right: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.logOut{
+    font-size: 500%;
+    text-align: center;
+    margin-top:70px ;
+    margin-left: 80px;
+    margin-bottom: 0px;
+}
+
+h3{
+    margin-top: 20px;
+}
+
+.desc{
+    margin-top: 50px;
+    font-size: 150%;
+    margin-right: 80px;
+    text-align: justify;
+    color: grey;
+}
+
+.Alert{
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 5%;
+    font-weight: 500;
+}
+
+.delete{
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.deleteButton{
+    border-radius: 25px;
+}
+.deleteTab{
+    width:50%;
+    margin: 3% 37%;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    border-radius: 20%;
+    height: 500px;
+    width: 30%;
+    text-align: center;
+}
+
+.emptyPic{
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+.emptyText{
+    margin-left: 44%;
+    color: grey;
+}
+
+.searchBar{
+    margin-top:2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 1%;
+    width:30%;
+    border-radius: 30px;
+    height: 40px;
+    background: none;
+    font-size: 16px;
+    padding-left: 12px;
+    border: 2px black solid;
+}
+
+.searchBox{
+    display:flex;
+    justify-content: flex-end;
+}

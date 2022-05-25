@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express=require("express");
 const bodyParser=require("body-parser");
 const cors=require("cors");
@@ -8,8 +9,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
-mongoose.connect(`mongodb+srv://harshita2801:harshita2821@cluster0.e5a5z.mongodb.net/?retryWrites=true&w=majority`);
-
+mongoose.connect(process.env.MONGODB);
+// console.log(process.env.MONGODB);
 //Bank detail Schema
 const depositSchema=new mongoose.Schema({
   username: String,
